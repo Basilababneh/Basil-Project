@@ -1,0 +1,16 @@
+select * from employee ,employee_info where emp.id=emp.ide;
+
+select * from employee natural join employee_info;
+
+select * from employee rigth join employee_info on (id=id);
+
+select * from employee left join employee_info on (id=id);
+
+select * from employee full join employee_info on (id=id);
+/////////////////////////////////////////////////////////
+
+select * from employee where emid=1004;
+select * from eployee where name like "R%"
+select * from employee order by age
+select * from employee order by age des
+select * ,sum(salary )from employee group by name;
